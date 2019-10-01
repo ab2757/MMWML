@@ -1,0 +1,80 @@
+.header {
+    background-color: skyblue;
+    height: 100px;
+    text-align: center;
+    color: #4f889f;
+    padding: 1px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+.some-page-wrapper {
+  margin: 15px;
+  background-color: red;
+}
+
+.blue-column {
+  background-color: blue;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.green-column {
+  background-color: green;
+  height: 500px;
+text-align: center;
+}
+
+.yellow-column {
+  background-color: yellow;
+  height: 500px;
+}
+.footer {
+    background-color: skyblue;
+    height: 100px;
+    text-align: center;
+    color: #4f889f;
+    padding: 1px;
+}
+
+.green-row {
+  background-color: green;
+  height: 125px;
+  text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.button-row {
+  background-color: yellow;
+  height: 125px;
+  text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#console_result {
+  background-color: blue;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+
+}
